@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+       Colspan
+    </title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            font-size: large;
+            border-collapse: collapse;
+            background-color: aqua;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <table>
+        <caption>IT Timetable</caption>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+        </tr>
+        
+        <tr>
+            <td>Mode</td>
+            <td colspan="2">In-Person</td>
+            <td>Virtual</td>
+        </tr>
+
+        <tr>
+            <td>Mode</td>
+            <td>In-Person</td>
+            <td colspan="2">Virtual</td>
+        </tr>
+    </table>
+</body>
+
+</html>
