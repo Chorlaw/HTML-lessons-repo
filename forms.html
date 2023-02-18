@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Forms project">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Forms</title>
+    <style>
+        body {
+            background-color: #f2f6ff;
+            margin: 0;
+        }
+
+        form {
+            background-color: white;
+            width: 700px;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Poppins';
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 40px  0px ;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-self: stretch;
+        }
+        .register-text{
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+        .logo-container{
+            padding: 30px 0px;
+            display:flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            background-color:#f2f6ff;
+        }
+        img{
+            width: 34px;
+            height: 34px;
+        }
+        .fontcontainer{
+            padding: 0px 40px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;    
+        }
+        input{
+            font-size:large;
+            padding: 12px;
+            border: none;
+            border-bottom: 1px solid gray;
+            outline: none;
+        }
+        input:focus{
+            border-bottom: 2px solid #0056ff;
+        }
+        button{
+            background-color:#0056ff;
+            border:none;
+            color: ghostwhite;
+            padding: 12px 30px;
+            font-family: poppins;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <span class="register-text">
+            REGISTER
+        </span>
+
+        <div class="logo-container">
+            <img class="social-icons" src="https://img.icons8.com/color/344/google-logo.png" alt="google logo">
+            <img class="social-icons" src="https://img.icons8.com/color/344/facebook-new.png" alt="faceook logo">
+            <img class="social-icons" src="https://img.icons8.com/ios-glyphs/344/github.png" alt="github logo">
+            <img class="social-icons" src="https://img.icons8.com/color/344/linkedin-circled--v1.png"
+             alt="linkedin logo">
+        </div >
+
+        <div class="fontcontainer">
+            <input name="user-name" type="text" placeholder="Username" required>
+            <input name="Email" type="email" placeholder="Email" required>
+            <input name="Password" type="password" placeholder="Password" required>
+            <input name="Confirm  Password" type="password" placeholder="Confirm Password" required>
+        </div>
+        <div>
+        <button> SUBMIT</button>
+        </div>
+    </form>
+</body>
+
+</html>
+
+<!-- 
+            <img class="social-icons" src="https://img.icons8.com/color/344/google-logo.png" alt="google logo">
+            <img class="social-icons" src="https://img.icons8.com/color/344/facebook-new.png" alt="faceook logo">
+            <img class="social-icons" src="https://img.icons8.com/ios-glyphs/344/github.png" alt="github logo">
+            <img class="social-icons" src="https://img.icons8.com/color/344/linkedin-circled--v1.png"
+             alt="linkedin logo">
+
+ -->
