@@ -1,0 +1,47 @@
+body{
+    font-family:"poppins";
+}
+
+.heading-container{
+    gap: 30px;
+    padding: 30px 20px;
+    align-items: center;
+    font-size: large;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+}
+
+.white{
+    background-color: white;
+}
+
+.lightblue{
+    background-color: #fefbff;
+}
+
+main{
+    padding: 20px 40px;
+    gap: 24px;
+}
+
+main a{
+    text-decoration: none;
+    color:#001a41;
+}
+main a:hover{
+    color: #005ac1;
+    text-decoration: underline;
+}
+
+.menu{
+    font-size:xx-large;
+    color: #005ac1;
+}
