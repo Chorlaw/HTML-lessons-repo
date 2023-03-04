@@ -1,0 +1,9 @@
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+// image as background
+
+background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/resources/background1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
